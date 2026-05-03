@@ -13,6 +13,7 @@ const NotFound = () => {
           Return to Home Page
         </button>
       </Link>
+      <p>Additional line</p>
     </div>
   );
 };
