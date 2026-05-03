@@ -9,7 +9,7 @@ const NotFound = () => {
         to={"/"}
         className="h-12 w-40 bg-blue-500 rounded-lg hover:bg-blue-400 text-white font-bold font-mono"
       >
-        <button className="h-full w-full text-center cursor-pointer">
+        <button className="h-full hover:text-blue-500 w-full text-center cursor-pointer">
           Go to Home Page
         </button>
       </Link>
