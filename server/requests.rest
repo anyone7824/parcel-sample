@@ -1,0 +1,13 @@
+POST http://localhost:5000/api/login
+Content-Type: application/json
+
+{
+    "identifier": "randomme3092@gmail.com",
+    "password": "Password@3092"
+}
+
+###
+
+POST http://localhost:5000/api/refresh-token
+Content-Type: application/json
+Cookie: refreshToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoicmFuZG9tbWUzMDkyQGdtYWlsLmNvbSIsImlhdCI6MTc3MTMxMjYxOCwiZXhwIjoxNzcxOTE3NDE4fQ.C0eYDsy-fs-O-q-xpULL5Qg75lgMV7JMRZjb9RZE_0s
